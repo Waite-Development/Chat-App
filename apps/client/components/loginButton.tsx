@@ -7,7 +7,7 @@ type Props = {
 
 export default function LoginButton(props: Props) {
     return (
-        <div className="flex rounded bg-slate-900 p-3">
+        <div className="flex rounded bg-slate-900 hover:bg-slate-700 p-3">
             <button className="flex items-center space-x-3"> {<img src={props.imageRef} />} <span>Sign in with {props.signIn}</span></button>
         </div>
     );
