@@ -13,6 +13,12 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        slate: {
+          750: '#283447',
+          775: '#212D3F'
+        }
+      },
       fontFamily: {
         'sans': ['Uni Sans', 'sans'],
       },
