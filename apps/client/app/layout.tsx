@@ -2,6 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import ServerList from "@client/components/ServerList";
+import ServerNav from "@client/components/ServerNav";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,9 +18,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="text-emerald-400 bg-slate-700">
+      <body className="text-white bg-slate-700 flex">
         <ServerList />
-        {children}
+        <ServerNav />
+        <div className="main">
+          {children}
+        </div>
       </body>
     </html>
   );
