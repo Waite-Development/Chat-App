@@ -1,4 +1,5 @@
 import { HiHashtag } from "react-icons/hi";
+import { PiSpeakerHighBold } from "react-icons/pi";
 import UserControls from "./UserControls";
 export default function ServerNav() {
   return (
@@ -7,13 +8,17 @@ export default function ServerNav() {
         Server Name
       </div>
       <div className="text-md flex grow flex-col gap-2 p-2">
-        <div className="flex items-center gap-1">
+        <div className="flex items-center gap-2">
           <HiHashtag className="text-xl" />
           general
         </div>
-        <div className="flex items-center gap-1">
+        <div className="flex items-center gap-2">
           <HiHashtag className="text-xl" />
           random
+        </div>
+        <div className="flex items-center gap-2">
+          <PiSpeakerHighBold className="text-xl" />
+          voice channel
         </div>
       </div>
       <UserControls />
