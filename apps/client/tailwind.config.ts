@@ -13,10 +13,6 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
-      colors: {
-        'emerald': '#60cc66',
-        'altGray': '#333333',
-      },
       fontFamily: {
         'sans': ['Uni Sans', 'sans'],
       },
