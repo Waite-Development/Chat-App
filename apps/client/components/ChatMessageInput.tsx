@@ -1,6 +1,6 @@
 
 
-export default function ChatMessage() {
+export default function ChatMessageInput() {
     return (
         <form className="flex">
             <div className="flex flex-grow p-3">
