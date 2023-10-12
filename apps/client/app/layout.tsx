@@ -23,9 +23,6 @@ export default function RootLayout({
         <ServerList />
         <ServerNav />
         <ServerChat />
-        <div className="main">
-          {children}
-        </div>
       </body>
     </html>
   );

@@ -1,5 +1,5 @@
 import { HiHashtag } from "react-icons/hi";
-import ChatMessage from "./ChatMessage";
+import ChatMessageInput from "./ChatMessageInput";
 
 
 export default function ServerChat() {
@@ -18,9 +18,9 @@ export default function ServerChat() {
                         />
                     </div>
                     <div>
-                        <p className="text-emerald-400 font-semibold">
+                        <h3 className="text-emerald-400 font-semibold">
                             Dave Plugh
-                        </p>
+                        </h3>
                         <p>
                             {'cs2 needs to fix its matchmaking :('}
                         </p>
@@ -34,16 +34,16 @@ export default function ServerChat() {
                         />
                     </div>
                     <div>
-                        <p className="text-emerald-400 font-semibold">
+                        <h3 className="text-emerald-400 font-semibold">
                             BeefyMcFatCakes
-                        </p>
+                        </h3>
                         <p>
                             {'agreed'}
                         </p>
                     </div>
                 </div>
             </div>
-            <ChatMessage />
+            <ChatMessageInput />
         </div>
     );
 }
