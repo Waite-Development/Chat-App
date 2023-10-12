@@ -7,7 +7,7 @@ export default function ServerNav() {
         Server Name
       </div>
       <div className="text-md flex grow flex-col gap-2 p-2">
-        <div className="flex items-center gap-1">
+        <div className="flex items-center gap-1 font-bold">
           <HiHashtag className="text-xl" />
           general
         </div>
